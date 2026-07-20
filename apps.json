@@ -1,102 +1,23 @@
 {
     "database_version": "1.0.0",
-    "updated_at": "2026-07-20",
     "apps": [
         {
             "id": "discord",
             "name": "Discord",
-            "description": "Программа для общения, голосовых звонков и сообществ.",
+            "description": "Программа для общения, звонков и сообществ.",
             "category": "Общение",
-            "publisher": "Discord Inc.",
-            "website": "https://discord.com",
-            "install": {
-                "type": "winget",
-                "id": "Discord.Discord"
-            }
-        },
-        {
-            "id": "google-chrome",
-            "name": "Google Chrome",
-            "description": "Популярный веб-браузер от Google.",
-            "category": "Браузеры",
-            "publisher": "Google",
-            "website": "https://www.google.com/chrome/",
-            "install": {
-                "type": "winget",
-                "id": "Google.Chrome"
-            }
-        },
-        {
-            "id": "mozilla-firefox",
-            "name": "Mozilla Firefox",
-            "description": "Свободный веб-браузер с открытым исходным кодом.",
-            "category": "Браузеры",
-            "publisher": "Mozilla",
-            "website": "https://www.mozilla.org/firefox/",
-            "install": {
-                "type": "winget",
-                "id": "Mozilla.Firefox"
-            }
+            "download_url": "https://discord.com/api/download?platform=win",
+            "installer_type": "exe",
+            "silent_args": []
         },
         {
             "id": "vlc",
             "name": "VLC Media Player",
-            "description": "Медиаплеер для воспроизведения видео и музыки.",
+            "description": "Медиаплеер для видео и музыки.",
             "category": "Мультимедиа",
-            "publisher": "VideoLAN",
-            "website": "https://www.videolan.org/vlc/",
-            "install": {
-                "type": "winget",
-                "id": "VideoLAN.VLC"
-            }
-        },
-        {
-            "id": "obs-studio",
-            "name": "OBS Studio",
-            "description": "Запись экрана и прямые трансляции.",
-            "category": "Мультимедиа",
-            "publisher": "OBS Project",
-            "website": "https://obsproject.com/",
-            "install": {
-                "type": "winget",
-                "id": "OBSProject.OBSStudio"
-            }
-        },
-        {
-            "id": "7zip",
-            "name": "7-Zip",
-            "description": "Архиватор с поддержкой множества форматов.",
-            "category": "Утилиты",
-            "publisher": "Igor Pavlov",
-            "website": "https://www.7-zip.org/",
-            "install": {
-                "type": "winget",
-                "id": "7zip.7zip"
-            }
-        },
-        {
-            "id": "vscode",
-            "name": "Visual Studio Code",
-            "description": "Редактор кода для разработки.",
-            "category": "Разработка",
-            "publisher": "Microsoft",
-            "website": "https://code.visualstudio.com/",
-            "install": {
-                "type": "winget",
-                "id": "Microsoft.VisualStudioCode"
-            }
-        },
-        {
-            "id": "telegram",
-            "name": "Telegram Desktop",
-            "description": "Мессенджер для общения и обмена файлами.",
-            "category": "Общение",
-            "publisher": "Telegram",
-            "website": "https://desktop.telegram.org/",
-            "install": {
-                "type": "winget",
-                "id": "Telegram.TelegramDesktop"
-            }
+            "download_url": "https://get.videolan.org/vlc/last/win64/vlc-win64.exe",
+            "installer_type": "exe",
+            "silent_args": []
         }
     ]
 }
