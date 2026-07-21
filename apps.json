@@ -1,12 +1,49 @@
 {
     "database_version": "1.0.0",
+    "last_updated": "2026-07-21",
     "apps": [
+        {
+            "id": "firefox",
+            "name": "Mozilla Firefox",
+            "description": "Быстрый и приватный веб-браузер.",
+            "category": "Браузеры",
+            "download_url": "https://ftp.mozilla.org/pub/firefox/releases/152.0/win64/en-US/Firefox%20Setup%20152.0.exe",
+            "installer_type": "exe",
+            "silent_args": []
+        },
+        {
+            "id": "opera-gx",
+            "name": "Opera GX",
+            "description": "Игровой браузер с функциями для геймеров.",
+            "category": "Браузеры",
+            "download_url": "https://download.opera.com/download/get/?partner=GX-CN&opsys=Windows&product=Opera%20GX&arch=x64",
+            "installer_type": "exe",
+            "silent_args": []
+        },
+        {
+            "id": "yandex-browser",
+            "name": "Яндекс Браузер",
+            "description": "Быстрый браузер от Яндекса.",
+            "category": "Браузеры",
+            "download_url": "https://browser.yandex.ru/c/browser-windows",
+            "installer_type": "exe",
+            "silent_args": []
+        },
         {
             "id": "discord",
             "name": "Discord",
             "description": "Программа для общения, звонков и сообществ.",
             "category": "Общение",
-            "download_url": "https://discord.com/api/download?platform=win",
+            "download_url": "https://discord.com/api/download?platform=win&format=exe&arch=x64",
+            "installer_type": "exe",
+            "silent_args": []
+        },
+        {
+            "id": "telegram",
+            "name": "Telegram Desktop",
+            "description": "Мессенджер для общения и обмена файлами.",
+            "category": "Общение",
+            "download_url": "https://telegram.org/dl/desktop/win64",
             "installer_type": "exe",
             "silent_args": []
         },
@@ -15,8 +52,62 @@
             "name": "VLC Media Player",
             "description": "Медиаплеер для видео и музыки.",
             "category": "Мультимедиа",
-            "download_url": "https://get.videolan.org/vlc/last/win64/vlc-win64.exe",
+            "download_url": "https://get.videolan.org/vlc/last/win64/vlc-3.0.23-win64.exe",
             "installer_type": "exe",
+            "silent_args": []
+        },
+        {
+            "id": "obs-studio",
+            "name": "OBS Studio",
+            "description": "Программа для записи экрана и стриминга.",
+            "category": "Мультимедиа",
+            "download_url": "https://cdn-fastly.obsproject.com/downloads/OBS-Studio-32.1.2-Windows-x64-Installer.exe",
+            "installer_type": "exe",
+            "silent_args": []
+        },
+        {
+            "id": "adobe-creative-cloud",
+            "name": "Adobe Creative Cloud",
+            "description": "Установщик платформы для Photoshop, Illustrator, Premiere Pro и других программ Adobe.",
+            "category": "Adobe",
+            "download_url": "https://ccmdls.adobe.com/AdobeProducts/KCCC/1/win32/CreativeCloudSet-Up.exe",
+            "installer_type": "exe",
+            "silent_args": []
+        },
+        {
+            "id": "7zip",
+            "name": "7-Zip",
+            "description": "Бесплатный архиватор.",
+            "category": "Утилиты",
+            "download_url": "https://www.7-zip.org/a/7z2501-x64.exe",
+            "installer_type": "exe",
+            "silent_args": []
+        },
+        {
+            "id": "visual-studio-code",
+            "name": "Visual Studio Code",
+            "description": "Редактор кода от Microsoft.",
+            "category": "Разработка",
+            "download_url": "https://update.code.visualstudio.com/latest/win32-x64-user/stable",
+            "installer_type": "exe",
+            "silent_args": []
+        },
+        {
+            "id": "git",
+            "name": "Git",
+            "description": "Система контроля версий для разработчиков.",
+            "category": "Разработка",
+            "download_url": "https://github.com/git-for-windows/git/releases/latest/download/Git-64-bit.exe",
+            "installer_type": "exe",
+            "silent_args": []
+        },
+        {
+            "id": "libreoffice",
+            "name": "LibreOffice",
+            "description": "Бесплатный офисный пакет.",
+            "category": "Офис",
+            "download_url": "https://download.documentfoundation.org/libreoffice/stable/latest/win/x86_64/LibreOffice_Win_x86-64.msi",
+            "installer_type": "msi",
             "silent_args": []
         }
     ]
